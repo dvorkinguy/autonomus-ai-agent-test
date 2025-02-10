@@ -135,7 +135,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+*.env
+.env.*
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -169,3 +170,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore all files in the .env directory
+.env/*
+
+# Ignore all files in the .env.local directory
+.env.local/*
